@@ -2,7 +2,6 @@ import pickle
 import pandas as pd
 import streamlit as st
 import plotly.express as px
-import uuid
 # --- Load model and discretizer ---
 with open("naive_bayes_model.pkl", "rb") as f:
     nb_model = pickle.load(f)
