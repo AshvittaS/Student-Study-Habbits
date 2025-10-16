@@ -3,8 +3,8 @@
 Predicting student outcomes (pass/fail) from study habits, lifestyle factors, and access variables. This project includes end‑to‑end EDA, feature engineering, model training for two algorithms, and two live deployments.
 
 ### Live Apps
-- Naive Bayes (Streamlit): [student-study-habbits-miv82ekk3rzvm5kpmnscih.streamlit.app](https://student-study-habbits-miv82ekk3rzvm5kpmnscih.streamlit.app/)
-- Random Forest (Hugging Face Space): [Ashvitta07/Student_result_rf](https://huggingface.co/spaces/Ashvitta07/Student_result_rf)
+- Naive Bayes (Streamlit): [student-study-habbits](https://student-study-habbits-miv82ekk3rzvm5kpmnscih.streamlit.app/)
+- Random Forest (Hugging Face Space): [Student_result_rf](https://huggingface.co/spaces/Ashvitta07/Student_result_rf)
 
 ### What’s unique in this project
 - Dual model + dual deployment: a Categorical Naive Bayes app on Streamlit and a Random Forest app on Hugging Face. This showcases different modeling philosophies and hosting targets in one repo.
@@ -64,12 +64,16 @@ Predicting student outcomes (pass/fail) from study habits, lifestyle factors, an
 
 - EDA – Correlation Heatmap
   
-  ![EDA Correlation](assets/eda_correlation.png)
+  <img width="670" height="573" alt="image" src="https://github.com/user-attachments/assets/15c0fdbd-8c59-4e3c-95cc-ff3d4dad26ed" />
+
 
 - EDA – Distributions of Core Numeric Features
   
-  ![EDA Distributions](assets/eda_distributions.png)
+  <img width="1989" height="1490" alt="image" src="https://github.com/user-attachments/assets/fbaefb3c-ff7e-4f15-9eb8-15cd9995a871" />
+
 
 - ROC curve
+  
+  <img width="613" height="470" alt="image" src="https://github.com/user-attachments/assets/6d16d7a1-de41-4c0a-a611-10ca7f1e655f" />
 
     
